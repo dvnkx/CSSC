@@ -1,12 +1,5 @@
-import "./index.scss";
-
 function App() {
-  return (
-    <div className="test">
-      Hello
-      <div className="sub-test-text">Sub Text</div>
-    </div>
-  );
+  return <div className="container"></div>;
 }
 
 export default App;
