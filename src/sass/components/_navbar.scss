@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  min-height: 60px;
+}
+
+.navbar__list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.navbar__link {
+  color: rgba($color: black, $alpha: 0.65);
+  font-weight: 500;
+  font-size: 20px;
+  transition: all 0.4s;
+
+  &:hover {
+    color: rgba($color: black, $alpha: 1);
+  }
+}
+
+.logo {
+  color: $secondary;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+}
